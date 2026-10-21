@@ -1,0 +1,15 @@
+version: 2
+models:
+  - name: stg_parte
+    description: "El parte diario limpio, con las dos entregas"
+    columns:
+      - name: pedido
+        data_tests: [unique, not_null]
+      - name: rider
+        data_tests: [not_null]
+      - name: zona
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["Centro", "Casco histórico", "Ensanche", "Campus", "Puerto", "Estación", "Barrio norte", "Polígono"]

@@ -1,0 +1,12 @@
+{
+ "num": 3,
+ "empresa": "Pedalea Delivery",
+ "subtitulo": "reparto en bicicleta",
+ "contexto": "Pedalea Delivery quiere que el parte se cargue solo cada vez que llega una exportación nueva. Y ha prometido a sus clientes **entregar en 30 minutos**: quiere saber dónde lo incumple, con el registro de estados de cada pedido.",
+ "preguntas": [
+  "¿Qué **zona** deja menos ingreso por kilómetro?",
+  "¿Qué **rider** gasta más batería por kilómetro?",
+  "¿Qué **bici** acumula más incidencias por cada 100 km?",
+  "¿Qué zona **incumple más la promesa de 30 minutos** (de `creado` a `entregado`)? ¿Cuánto tarda de media?"
+ ]
+}

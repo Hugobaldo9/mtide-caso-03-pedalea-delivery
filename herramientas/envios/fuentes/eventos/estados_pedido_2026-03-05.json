@@ -1,0 +1,654 @@
+{"evento_id": "E000001", "pedido_id": "PW-00001", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T12:01:24"}
+{"evento_id": "E000002", "pedido_id": "PW-00001", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T12:05:24"}
+{"evento_id": "E000004", "pedido_id": "PW-00002", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T12:03:04"}
+{"evento_id": "E000005", "pedido_id": "PW-00002", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T12:07:04"}
+{"evento_id": "E000007", "pedido_id": "PW-00003", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T12:03:03"}
+{"evento_id": "E000008", "pedido_id": "PW-00003", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T12:07:03"}
+{"evento_id": "E000010", "pedido_id": "PW-00004", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T12:05:18"}
+{"evento_id": "E000011", "pedido_id": "PW-00004", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T12:09:18"}
+{"evento_id": "E000013", "pedido_id": "PW-00005", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T12:09:12"}
+{"evento_id": "E000014", "pedido_id": "PW-00005", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T12:13:12"}
+{"evento_id": "E000016", "pedido_id": "PW-00006", "zona": "Ensanche", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T12:09:13"}
+{"evento_id": "E000017", "pedido_id": "PW-00006", "zona": "Ensanche", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T12:13:13"}
+{"evento_id": "E000019", "pedido_id": "PW-00007", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T12:06:25"}
+{"evento_id": "E000022", "pedido_id": "PW-00008", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T12:07:23"}
+{"evento_id": "E000025", "pedido_id": "PW-00009", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T12:05:10"}
+{"evento_id": "E000026", "pedido_id": "PW-00009", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T12:08:10"}
+{"evento_id": "E000020", "pedido_id": "PW-00007", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T12:11:25"}
+{"evento_id": "E000023", "pedido_id": "PW-00008", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T12:16:23"}
+{"evento_id": "E000027", "pedido_id": "PW-00009", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "cancelado", "ts": "2026-03-05T12:11:10"}
+{"evento_id": "E000028", "pedido_id": "PW-00010", "zona": "Estación", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T12:10:15"}
+{"evento_id": "E000031", "pedido_id": "PW-00011", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T12:14:31"}
+{"evento_id": "E000034", "pedido_id": "PW-00012", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T12:11:04"}
+{"evento_id": "E000037", "pedido_id": "PW-00013", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T12:12:08"}
+{"evento_id": "E000029", "pedido_id": "PW-00010", "zona": "Estación", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T12:18:15"}
+{"evento_id": "E000032", "pedido_id": "PW-00011", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T12:23:31"}
+{"evento_id": "E000035", "pedido_id": "PW-00012", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T12:17:04"}
+{"evento_id": "E000038", "pedido_id": "PW-00013", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T12:17:08"}
+{"evento_id": "E000040", "pedido_id": "PW-00014", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T12:16:13"}
+{"evento_id": "E000043", "pedido_id": "PW-00015", "zona": "Casco histórico", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T12:19:46"}
+{"evento_id": "E000046", "pedido_id": "PW-00016", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T12:15:33"}
+{"evento_id": "E000049", "pedido_id": "PW-00017", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T12:17:39"}
+{"evento_id": "E000050", "pedido_id": "PW-00017", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T12:20:39"}
+{"evento_id": "E000003", "pedido_id": "PW-00001", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T12:21:24"}
+{"evento_id": "E000021", "pedido_id": "PW-00007", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T12:22:25"}
+{"evento_id": "E000024", "pedido_id": "PW-00008", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T12:23:23"}
+{"evento_id": "E000039", "pedido_id": "PW-00013", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "cancelado", "ts": "2026-03-05T12:22:08"}
+{"evento_id": "E000041", "pedido_id": "PW-00014", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T12:24:13"}
+{"evento_id": "E000044", "pedido_id": "PW-00015", "zona": "Casco histórico", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T12:25:46"}
+{"evento_id": "E000047", "pedido_id": "PW-00016", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T12:23:33"}
+{"evento_id": "E000051", "pedido_id": "PW-00017", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "cancelado", "ts": "2026-03-05T12:24:39"}
+{"evento_id": "E000052", "pedido_id": "PW-00018", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T12:21:03"}
+{"evento_id": "E000053", "pedido_id": "PW-00018", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T12:24:03"}
+{"evento_id": "E000055", "pedido_id": "PW-00019", "zona": "Centro", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T12:24:14"}
+{"evento_id": "E000058", "pedido_id": "PW-00020", "zona": "Centro", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T12:23:26"}
+{"evento_id": "E000006", "pedido_id": "PW-00002", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T12:29:04"}
+{"evento_id": "E000009", "pedido_id": "PW-00003", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T12:31:03"}
+{"evento_id": "E000015", "pedido_id": "PW-00005", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T12:31:12"}
+{"evento_id": "E000030", "pedido_id": "PW-00010", "zona": "Estación", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T12:26:15"}
+{"evento_id": "E000033", "pedido_id": "PW-00011", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T12:31:31"}
+{"evento_id": "E000036", "pedido_id": "PW-00012", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T12:30:04"}
+{"evento_id": "E000056", "pedido_id": "PW-00019", "zona": "Centro", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T12:33:14"}
+{"evento_id": "E000059", "pedido_id": "PW-00020", "zona": "Centro", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T12:31:26"}
+{"evento_id": "E000061", "pedido_id": "PW-00021", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T12:27:35"}
+{"evento_id": "E000062", "pedido_id": "PW-00021", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T12:30:35"}
+{"evento_id": "E000064", "pedido_id": "PW-00022", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T12:29:45"}
+{"evento_id": "E000067", "pedido_id": "PW-00023", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T12:29:34"}
+{"evento_id": "E000070", "pedido_id": "PW-00024", "zona": "Campus", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T12:26:48"}
+{"evento_id": "E000012", "pedido_id": "PW-00004", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T12:31:18"}
+{"evento_id": "E000018", "pedido_id": "PW-00006", "zona": "Ensanche", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T12:34:13"}
+{"evento_id": "E000042", "pedido_id": "PW-00014", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T12:31:13"}
+{"evento_id": "E000065", "pedido_id": "PW-00022", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T12:37:45"}
+{"evento_id": "E000066", "pedido_id": "PW-00022", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "cancelado", "ts": "2026-03-05T12:38:45"}
+{"evento_id": "E000068", "pedido_id": "PW-00023", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T12:37:34"}
+{"evento_id": "E000071", "pedido_id": "PW-00024", "zona": "Campus", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T12:32:48"}
+{"evento_id": "E000073", "pedido_id": "PW-00025", "zona": "Barrio norte", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T12:32:13"}
+{"evento_id": "E000074", "pedido_id": "PW-00025", "zona": "Barrio norte", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T12:35:13"}
+{"evento_id": "E000076", "pedido_id": "PW-00026", "zona": "Centro", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T12:31:30"}
+{"evento_id": "E000079", "pedido_id": "PW-00027", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T12:34:36"}
+{"evento_id": "E000082", "pedido_id": "PW-00028", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T12:32:56"}
+{"evento_id": "E000083", "pedido_id": "PW-00028", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T12:36:56"}
+{"evento_id": "E000085", "pedido_id": "PW-00029", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T12:34:01"}
+{"evento_id": "E000088", "pedido_id": "PW-00030", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T12:34:35"}
+{"evento_id": "E000045", "pedido_id": "PW-00015", "zona": "Casco histórico", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T12:42:46"}
+{"evento_id": "E000048", "pedido_id": "PW-00016", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T12:35:33"}
+{"evento_id": "E000060", "pedido_id": "PW-00020", "zona": "Centro", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T12:39:26"}
+{"evento_id": "E000077", "pedido_id": "PW-00026", "zona": "Centro", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T12:37:30"}
+{"evento_id": "E000080", "pedido_id": "PW-00027", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T12:39:36"}
+{"evento_id": "E000086", "pedido_id": "PW-00029", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T12:43:01"}
+{"evento_id": "E000089", "pedido_id": "PW-00030", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T12:40:35"}
+{"evento_id": "E000091", "pedido_id": "PW-00031", "zona": "Estación", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T12:37:25"}
+{"evento_id": "E000092", "pedido_id": "PW-00031", "zona": "Estación", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T12:41:25"}
+{"evento_id": "E000094", "pedido_id": "PW-00032", "zona": "Casco histórico", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T12:36:21"}
+{"evento_id": "E000097", "pedido_id": "PW-00033", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T12:37:09"}
+{"evento_id": "E000100", "pedido_id": "PW-00034", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T12:38:38"}
+{"evento_id": "E000054", "pedido_id": "PW-00018", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T12:41:03"}
+{"evento_id": "E000057", "pedido_id": "PW-00019", "zona": "Centro", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T12:47:14"}
+{"evento_id": "E000093", "pedido_id": "PW-00031", "zona": "Estación", "rider": "MARCOS HERRERA", "estado": "cancelado", "ts": "2026-03-05T12:46:25"}
+{"evento_id": "E000095", "pedido_id": "PW-00032", "zona": "Casco histórico", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T12:43:21"}
+{"evento_id": "E000098", "pedido_id": "PW-00033", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T12:46:09"}
+{"evento_id": "E000101", "pedido_id": "PW-00034", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T12:44:38"}
+{"evento_id": "E000103", "pedido_id": "PW-00035", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T12:43:24"}
+{"evento_id": "E000104", "pedido_id": "PW-00035", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T12:46:24"}
+{"evento_id": "E000106", "pedido_id": "PW-00036", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T12:43:35"}
+{"evento_id": "E000109", "pedido_id": "PW-00037", "zona": "Estación", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T12:41:50"}
+{"evento_id": "E000112", "pedido_id": "PW-00038", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T12:40:54"}
+{"evento_id": "E000113", "pedido_id": "PW-00038", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T12:44:54"}
+{"evento_id": "E000115", "pedido_id": "PW-00039", "zona": "Polígono", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T12:41:13"}
+{"evento_id": "E000118", "pedido_id": "PW-00040", "zona": "Casco histórico", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T12:43:47"}
+{"evento_id": "E000063", "pedido_id": "PW-00021", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T12:48:35"}
+{"evento_id": "E000072", "pedido_id": "PW-00024", "zona": "Campus", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T12:48:48"}
+{"evento_id": "E000078", "pedido_id": "PW-00026", "zona": "Centro", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T12:48:30"}
+{"evento_id": "E000084", "pedido_id": "PW-00028", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T12:49:56"}
+{"evento_id": "E000096", "pedido_id": "PW-00032", "zona": "Casco histórico", "rider": "MARCOS HERRERA", "estado": "cancelado", "ts": "2026-03-05T12:47:21"}
+{"evento_id": "E000107", "pedido_id": "PW-00036", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T12:51:35"}
+{"evento_id": "E000110", "pedido_id": "PW-00037", "zona": "Estación", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T12:48:50"}
+{"evento_id": "E000114", "pedido_id": "PW-00038", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "cancelado", "ts": "2026-03-05T12:49:54"}
+{"evento_id": "E000116", "pedido_id": "PW-00039", "zona": "Polígono", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T12:47:13"}
+{"evento_id": "E000119", "pedido_id": "PW-00040", "zona": "Casco histórico", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T12:49:47"}
+{"evento_id": "E000121", "pedido_id": "PW-00041", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T12:46:33"}
+{"evento_id": "E000124", "pedido_id": "PW-00042", "zona": "Centro", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T12:47:05"}
+{"evento_id": "E000127", "pedido_id": "PW-00043", "zona": "Ensanche", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T12:45:00"}
+{"evento_id": "E000130", "pedido_id": "PW-00044", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T12:46:02"}
+{"evento_id": "E000131", "pedido_id": "PW-00044", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T12:49:02"}
+{"evento_id": "E000069", "pedido_id": "PW-00023", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T12:55:34"}
+{"evento_id": "E000102", "pedido_id": "PW-00034", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T12:53:38"}
+{"evento_id": "E000120", "pedido_id": "PW-00040", "zona": "Casco histórico", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T12:57:47"}
+{"evento_id": "E000122", "pedido_id": "PW-00041", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T12:51:33"}
+{"evento_id": "E000125", "pedido_id": "PW-00042", "zona": "Centro", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T12:54:05"}
+{"evento_id": "E000128", "pedido_id": "PW-00043", "zona": "Ensanche", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T12:52:00"}
+{"evento_id": "E000133", "pedido_id": "PW-00045", "zona": "Polígono", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T12:53:55"}
+{"evento_id": "E000136", "pedido_id": "PW-00046", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T12:50:57"}
+{"evento_id": "E000139", "pedido_id": "PW-00047", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T12:51:07"}
+{"evento_id": "E000142", "pedido_id": "PW-00048", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T12:53:51"}
+{"evento_id": "E000143", "pedido_id": "PW-00048", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T12:57:51"}
+{"evento_id": "E000145", "pedido_id": "PW-00049", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T12:51:50"}
+{"evento_id": "E000148", "pedido_id": "PW-00050", "zona": "Ensanche", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T12:53:59"}
+{"evento_id": "E000081", "pedido_id": "PW-00027", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T13:01:36"}
+{"evento_id": "E000087", "pedido_id": "PW-00029", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T13:00:01"}
+{"evento_id": "E000090", "pedido_id": "PW-00030", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T13:03:35"}
+{"evento_id": "E000105", "pedido_id": "PW-00035", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T12:59:24"}
+{"evento_id": "E000108", "pedido_id": "PW-00036", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T13:02:35"}
+{"evento_id": "E000134", "pedido_id": "PW-00045", "zona": "Polígono", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T12:58:55"}
+{"evento_id": "E000137", "pedido_id": "PW-00046", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T12:56:57"}
+{"evento_id": "E000140", "pedido_id": "PW-00047", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T12:57:07"}
+{"evento_id": "E000146", "pedido_id": "PW-00049", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T13:00:50"}
+{"evento_id": "E000149", "pedido_id": "PW-00050", "zona": "Ensanche", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T13:02:59"}
+{"evento_id": "E000151", "pedido_id": "PW-00051", "zona": "Barrio norte", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T12:59:35"}
+{"evento_id": "E000154", "pedido_id": "PW-00052", "zona": "Estación", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T12:57:34"}
+{"evento_id": "E000157", "pedido_id": "PW-00053", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T12:57:02"}
+{"evento_id": "E000160", "pedido_id": "PW-00054", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T12:57:49"}
+{"evento_id": "E000163", "pedido_id": "PW-00055", "zona": "Barrio norte", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T12:59:24"}
+{"evento_id": "E000099", "pedido_id": "PW-00033", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T13:04:09"}
+{"evento_id": "E000129", "pedido_id": "PW-00043", "zona": "Ensanche", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T13:00:00"}
+{"evento_id": "E000152", "pedido_id": "PW-00051", "zona": "Barrio norte", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T13:04:35"}
+{"evento_id": "E000155", "pedido_id": "PW-00052", "zona": "Estación", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T13:04:34"}
+{"evento_id": "E000158", "pedido_id": "PW-00053", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T13:05:02"}
+{"evento_id": "E000161", "pedido_id": "PW-00054", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T13:06:49"}
+{"evento_id": "E000164", "pedido_id": "PW-00055", "zona": "Barrio norte", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T13:06:24"}
+{"evento_id": "E000166", "pedido_id": "PW-00056", "zona": "Barrio norte", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T13:00:42"}
+{"evento_id": "E000167", "pedido_id": "PW-00056", "zona": "Barrio norte", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T13:04:42"}
+{"evento_id": "E000169", "pedido_id": "PW-00057", "zona": "Casco histórico", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T13:02:42"}
+{"evento_id": "E000172", "pedido_id": "PW-00058", "zona": "Casco histórico", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:03:55"}
+{"evento_id": "E000175", "pedido_id": "PW-00059", "zona": "Casco histórico", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T13:04:18"}
+{"evento_id": "E000178", "pedido_id": "PW-00060", "zona": "Ensanche", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T13:01:56"}
+{"evento_id": "E000179", "pedido_id": "PW-00060", "zona": "Ensanche", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T13:04:56"}
+{"evento_id": "E000181", "pedido_id": "PW-00061", "zona": "Centro", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T13:01:02"}
+{"evento_id": "E000111", "pedido_id": "PW-00037", "zona": "Estación", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T13:07:50"}
+{"evento_id": "E000117", "pedido_id": "PW-00039", "zona": "Polígono", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T13:09:13"}
+{"evento_id": "E000123", "pedido_id": "PW-00041", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T13:06:33"}
+{"evento_id": "E000135", "pedido_id": "PW-00045", "zona": "Polígono", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T13:09:55"}
+{"evento_id": "E000170", "pedido_id": "PW-00057", "zona": "Casco histórico", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T13:10:42"}
+{"evento_id": "E000173", "pedido_id": "PW-00058", "zona": "Casco histórico", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T13:10:55"}
+{"evento_id": "E000176", "pedido_id": "PW-00059", "zona": "Casco histórico", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T13:09:18"}
+{"evento_id": "E000182", "pedido_id": "PW-00061", "zona": "Centro", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T13:09:02"}
+{"evento_id": "E000184", "pedido_id": "PW-00062", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T13:06:39"}
+{"evento_id": "E000187", "pedido_id": "PW-00063", "zona": "Puerto", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T13:08:30"}
+{"evento_id": "E000190", "pedido_id": "PW-00064", "zona": "Polígono", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T13:09:36"}
+{"evento_id": "E000193", "pedido_id": "PW-00065", "zona": "Ensanche", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T13:06:15"}
+{"evento_id": "E000194", "pedido_id": "PW-00065", "zona": "Ensanche", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T13:10:15"}
+{"evento_id": "E000126", "pedido_id": "PW-00042", "zona": "Centro", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T13:16:05"}
+{"evento_id": "E000138", "pedido_id": "PW-00046", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T13:11:57"}
+{"evento_id": "E000150", "pedido_id": "PW-00050", "zona": "Ensanche", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T13:17:59"}
+{"evento_id": "E000159", "pedido_id": "PW-00053", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T13:15:02"}
+{"evento_id": "E000174", "pedido_id": "PW-00058", "zona": "Casco histórico", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T13:17:55"}
+{"evento_id": "E000177", "pedido_id": "PW-00059", "zona": "Casco histórico", "rider": "VERA ORTEGA", "estado": "cancelado", "ts": "2026-03-05T13:14:18"}
+{"evento_id": "E000185", "pedido_id": "PW-00062", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T13:11:39"}
+{"evento_id": "E000186", "pedido_id": "PW-00062", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "cancelado", "ts": "2026-03-05T13:14:39"}
+{"evento_id": "E000188", "pedido_id": "PW-00063", "zona": "Puerto", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T13:14:30"}
+{"evento_id": "E000191", "pedido_id": "PW-00064", "zona": "Polígono", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T13:18:36"}
+{"evento_id": "E000196", "pedido_id": "PW-00066", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T13:13:05"}
+{"evento_id": "E000197", "pedido_id": "PW-00066", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T13:16:05"}
+{"evento_id": "E000199", "pedido_id": "PW-00067", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T13:11:16"}
+{"evento_id": "E000200", "pedido_id": "PW-00067", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T13:14:16"}
+{"evento_id": "E000202", "pedido_id": "PW-00068", "zona": "Barrio norte", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T13:13:34"}
+{"evento_id": "E000205", "pedido_id": "PW-00069", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T13:11:19"}
+{"evento_id": "E000208", "pedido_id": "PW-00070", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:14:10"}
+{"evento_id": "E000211", "pedido_id": "PW-00071", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T13:11:15"}
+{"evento_id": "E000075", "pedido_id": "PW-00025", "zona": "Barrio norte", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T13:17:13"}
+{"evento_id": "E000132", "pedido_id": "PW-00044", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T13:17:02"}
+{"evento_id": "E000141", "pedido_id": "PW-00047", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T13:16:07"}
+{"evento_id": "E000144", "pedido_id": "PW-00048", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T13:18:51"}
+{"evento_id": "E000147", "pedido_id": "PW-00049", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T13:18:50"}
+{"evento_id": "E000153", "pedido_id": "PW-00051", "zona": "Barrio norte", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T13:20:35"}
+{"evento_id": "E000165", "pedido_id": "PW-00055", "zona": "Barrio norte", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T13:21:24"}
+{"evento_id": "E000171", "pedido_id": "PW-00057", "zona": "Casco histórico", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T13:18:42"}
+{"evento_id": "E000189", "pedido_id": "PW-00063", "zona": "Puerto", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T13:22:30"}
+{"evento_id": "E000201", "pedido_id": "PW-00067", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "cancelado", "ts": "2026-03-05T13:17:16"}
+{"evento_id": "E000203", "pedido_id": "PW-00068", "zona": "Barrio norte", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T13:20:34"}
+{"evento_id": "E000206", "pedido_id": "PW-00069", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T13:19:19"}
+{"evento_id": "E000209", "pedido_id": "PW-00070", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T13:20:10"}
+{"evento_id": "E000212", "pedido_id": "PW-00071", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T13:18:15"}
+{"evento_id": "E000214", "pedido_id": "PW-00072", "zona": "Barrio norte", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T13:18:27"}
+{"evento_id": "E000217", "pedido_id": "PW-00073", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T13:16:18"}
+{"evento_id": "E000218", "pedido_id": "PW-00073", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T13:19:18"}
+{"evento_id": "E000220", "pedido_id": "PW-00074", "zona": "Centro", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T13:16:43"}
+{"evento_id": "E000156", "pedido_id": "PW-00052", "zona": "Estación", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T13:25:34"}
+{"evento_id": "E000162", "pedido_id": "PW-00054", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T13:23:49"}
+{"evento_id": "E000180", "pedido_id": "PW-00060", "zona": "Ensanche", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T13:24:56"}
+{"evento_id": "E000183", "pedido_id": "PW-00061", "zona": "Centro", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T13:23:02"}
+{"evento_id": "E000210", "pedido_id": "PW-00070", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T13:28:10"}
+{"evento_id": "E000215", "pedido_id": "PW-00072", "zona": "Barrio norte", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T13:26:27"}
+{"evento_id": "E000221", "pedido_id": "PW-00074", "zona": "Centro", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T13:21:43"}
+{"evento_id": "E000223", "pedido_id": "PW-00075", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T13:20:08"}
+{"evento_id": "E000224", "pedido_id": "PW-00075", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T13:23:08"}
+{"evento_id": "E000226", "pedido_id": "PW-00076", "zona": "Estación", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T13:21:03"}
+{"evento_id": "E000229", "pedido_id": "PW-00077", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T13:22:53"}
+{"evento_id": "E000230", "pedido_id": "PW-00077", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T13:25:53"}
+{"evento_id": "E000168", "pedido_id": "PW-00056", "zona": "Barrio norte", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T13:29:42"}
+{"evento_id": "E000192", "pedido_id": "PW-00064", "zona": "Polígono", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T13:33:36"}
+{"evento_id": "E000216", "pedido_id": "PW-00072", "zona": "Barrio norte", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T13:32:27"}
+{"evento_id": "E000227", "pedido_id": "PW-00076", "zona": "Estación", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T13:30:03"}
+{"evento_id": "E000232", "pedido_id": "PW-00078", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T13:28:29"}
+{"evento_id": "E000235", "pedido_id": "PW-00079", "zona": "Polígono", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T13:28:21"}
+{"evento_id": "E000238", "pedido_id": "PW-00080", "zona": "Polígono", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T13:26:47"}
+{"evento_id": "E000241", "pedido_id": "PW-00081", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:25:36"}
+{"evento_id": "E000242", "pedido_id": "PW-00081", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T13:28:36"}
+{"evento_id": "E000195", "pedido_id": "PW-00065", "zona": "Ensanche", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T13:31:15"}
+{"evento_id": "E000198", "pedido_id": "PW-00066", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T13:36:05"}
+{"evento_id": "E000213", "pedido_id": "PW-00071", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T13:33:15"}
+{"evento_id": "E000233", "pedido_id": "PW-00078", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T13:35:29"}
+{"evento_id": "E000236", "pedido_id": "PW-00079", "zona": "Polígono", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T13:35:21"}
+{"evento_id": "E000239", "pedido_id": "PW-00080", "zona": "Polígono", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T13:34:47"}
+{"evento_id": "E000244", "pedido_id": "PW-00082", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T13:33:48"}
+{"evento_id": "E000247", "pedido_id": "PW-00083", "zona": "Estación", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T13:34:59"}
+{"evento_id": "E000250", "pedido_id": "PW-00084", "zona": "Puerto", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T13:30:20"}
+{"evento_id": "E000251", "pedido_id": "PW-00084", "zona": "Puerto", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T13:33:20"}
+{"evento_id": "E000204", "pedido_id": "PW-00068", "zona": "Barrio norte", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T13:41:34"}
+{"evento_id": "E000207", "pedido_id": "PW-00069", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T13:40:19"}
+{"evento_id": "E000222", "pedido_id": "PW-00074", "zona": "Centro", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T13:38:43"}
+{"evento_id": "E000245", "pedido_id": "PW-00082", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T13:38:48"}
+{"evento_id": "E000248", "pedido_id": "PW-00083", "zona": "Estación", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T13:39:59"}
+{"evento_id": "E000253", "pedido_id": "PW-00085", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T13:38:52"}
+{"evento_id": "E000254", "pedido_id": "PW-00085", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T13:42:52"}
+{"evento_id": "E000256", "pedido_id": "PW-00086", "zona": "Estación", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T13:36:04"}
+{"evento_id": "E000259", "pedido_id": "PW-00087", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T13:39:16"}
+{"evento_id": "E000260", "pedido_id": "PW-00087", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T13:43:16"}
+{"evento_id": "E000262", "pedido_id": "PW-00088", "zona": "Centro", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T13:36:54"}
+{"evento_id": "E000263", "pedido_id": "PW-00088", "zona": "Centro", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T13:39:54"}
+{"evento_id": "E000265", "pedido_id": "PW-00089", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T13:35:25"}
+{"evento_id": "E000268", "pedido_id": "PW-00090", "zona": "Centro", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T13:36:03"}
+{"evento_id": "E000219", "pedido_id": "PW-00073", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T13:44:18"}
+{"evento_id": "E000225", "pedido_id": "PW-00075", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T13:40:08"}
+{"evento_id": "E000231", "pedido_id": "PW-00077", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T13:42:53"}
+{"evento_id": "E000234", "pedido_id": "PW-00078", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T13:46:29"}
+{"evento_id": "E000237", "pedido_id": "PW-00079", "zona": "Polígono", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T13:46:21"}
+{"evento_id": "E000240", "pedido_id": "PW-00080", "zona": "Polígono", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T13:41:47"}
+{"evento_id": "E000243", "pedido_id": "PW-00081", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T13:44:36"}
+{"evento_id": "E000257", "pedido_id": "PW-00086", "zona": "Estación", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T13:44:04"}
+{"evento_id": "E000266", "pedido_id": "PW-00089", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T13:44:25"}
+{"evento_id": "E000269", "pedido_id": "PW-00090", "zona": "Centro", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T13:44:03"}
+{"evento_id": "E000271", "pedido_id": "PW-00091", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:41:12"}
+{"evento_id": "E000272", "pedido_id": "PW-00091", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T13:44:12"}
+{"evento_id": "E000274", "pedido_id": "PW-00092", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T13:40:30"}
+{"evento_id": "E000275", "pedido_id": "PW-00092", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T13:44:30"}
+{"evento_id": "E000277", "pedido_id": "PW-00093", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T13:42:45"}
+{"evento_id": "E000278", "pedido_id": "PW-00093", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T13:46:45"}
+{"evento_id": "E000280", "pedido_id": "PW-00094", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T13:41:58"}
+{"evento_id": "E000281", "pedido_id": "PW-00094", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T13:45:58"}
+{"evento_id": "E000228", "pedido_id": "PW-00076", "zona": "Estación", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T13:49:03"}
+{"evento_id": "E000246", "pedido_id": "PW-00082", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T13:52:48"}
+{"evento_id": "E000283", "pedido_id": "PW-00095", "zona": "Barrio norte", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:46:17"}
+{"evento_id": "E000286", "pedido_id": "PW-00096", "zona": "Campus", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T13:49:24"}
+{"evento_id": "E000289", "pedido_id": "PW-00097", "zona": "Campus", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T13:47:04"}
+{"evento_id": "E000290", "pedido_id": "PW-00097", "zona": "Campus", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T13:51:04"}
+{"evento_id": "E000292", "pedido_id": "PW-00098", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T13:49:38"}
+{"evento_id": "E000295", "pedido_id": "PW-00099", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:47:17"}
+{"evento_id": "E000298", "pedido_id": "PW-00100", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T13:45:44"}
+{"evento_id": "E000299", "pedido_id": "PW-00100", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T13:48:44"}
+{"evento_id": "E000249", "pedido_id": "PW-00083", "zona": "Estación", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T13:57:59"}
+{"evento_id": "E000276", "pedido_id": "PW-00092", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T13:54:30"}
+{"evento_id": "E000284", "pedido_id": "PW-00095", "zona": "Barrio norte", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T13:52:17"}
+{"evento_id": "E000287", "pedido_id": "PW-00096", "zona": "Campus", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T13:57:24"}
+{"evento_id": "E000293", "pedido_id": "PW-00098", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T13:56:38"}
+{"evento_id": "E000296", "pedido_id": "PW-00099", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T13:53:17"}
+{"evento_id": "E000301", "pedido_id": "PW-00101", "zona": "Campus", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T13:53:08"}
+{"evento_id": "E000304", "pedido_id": "PW-00102", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T13:53:20"}
+{"evento_id": "E000305", "pedido_id": "PW-00102", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T13:57:20"}
+{"evento_id": "E000307", "pedido_id": "PW-00103", "zona": "Centro", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T13:53:04"}
+{"evento_id": "E000310", "pedido_id": "PW-00104", "zona": "Centro", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T13:54:27"}
+{"evento_id": "E000313", "pedido_id": "PW-00105", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:53:44"}
+{"evento_id": "E000316", "pedido_id": "PW-00106", "zona": "Ensanche", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T13:54:40"}
+{"evento_id": "E000252", "pedido_id": "PW-00084", "zona": "Puerto", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T13:55:20"}
+{"evento_id": "E000258", "pedido_id": "PW-00086", "zona": "Estación", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T13:57:04"}
+{"evento_id": "E000261", "pedido_id": "PW-00087", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T14:01:16"}
+{"evento_id": "E000297", "pedido_id": "PW-00099", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "cancelado", "ts": "2026-03-05T13:57:17"}
+{"evento_id": "E000302", "pedido_id": "PW-00101", "zona": "Campus", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T14:02:08"}
+{"evento_id": "E000308", "pedido_id": "PW-00103", "zona": "Centro", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T14:00:04"}
+{"evento_id": "E000311", "pedido_id": "PW-00104", "zona": "Centro", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T14:02:27"}
+{"evento_id": "E000314", "pedido_id": "PW-00105", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T14:00:44"}
+{"evento_id": "E000317", "pedido_id": "PW-00106", "zona": "Ensanche", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T14:01:40"}
+{"evento_id": "E000319", "pedido_id": "PW-00107", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:57:01"}
+{"evento_id": "E000320", "pedido_id": "PW-00107", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T14:00:01"}
+{"evento_id": "E000322", "pedido_id": "PW-00108", "zona": "Puerto", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T13:56:18"}
+{"evento_id": "E000325", "pedido_id": "PW-00109", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:56:56"}
+{"evento_id": "E000328", "pedido_id": "PW-00110", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T13:55:05"}
+{"evento_id": "E000331", "pedido_id": "PW-00111", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T13:59:34"}
+{"evento_id": "E000334", "pedido_id": "PW-00112", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T13:55:45"}
+{"evento_id": "E000264", "pedido_id": "PW-00088", "zona": "Centro", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T14:05:54"}
+{"evento_id": "E000267", "pedido_id": "PW-00089", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T14:04:25"}
+{"evento_id": "E000270", "pedido_id": "PW-00090", "zona": "Centro", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T14:02:03"}
+{"evento_id": "E000291", "pedido_id": "PW-00097", "zona": "Campus", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T14:05:04"}
+{"evento_id": "E000318", "pedido_id": "PW-00106", "zona": "Ensanche", "rider": "NOA CAMPOS", "estado": "cancelado", "ts": "2026-03-05T14:06:40"}
+{"evento_id": "E000323", "pedido_id": "PW-00108", "zona": "Puerto", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T14:02:18"}
+{"evento_id": "E000326", "pedido_id": "PW-00109", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T14:03:56"}
+{"evento_id": "E000329", "pedido_id": "PW-00110", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T14:00:05"}
+{"evento_id": "E000332", "pedido_id": "PW-00111", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T14:07:34"}
+{"evento_id": "E000335", "pedido_id": "PW-00112", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T14:02:45"}
+{"evento_id": "E000337", "pedido_id": "PW-00113", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T14:01:38"}
+{"evento_id": "E000340", "pedido_id": "PW-00114", "zona": "Barrio norte", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T14:04:26"}
+{"evento_id": "E000343", "pedido_id": "PW-00115", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T14:03:00"}
+{"evento_id": "E000344", "pedido_id": "PW-00115", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T14:06:00"}
+{"evento_id": "E000346", "pedido_id": "PW-00116", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T14:00:40"}
+{"evento_id": "E000273", "pedido_id": "PW-00091", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T14:09:12"}
+{"evento_id": "E000279", "pedido_id": "PW-00093", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T14:07:45"}
+{"evento_id": "E000282", "pedido_id": "PW-00094", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T14:07:58"}
+{"evento_id": "E000288", "pedido_id": "PW-00096", "zona": "Campus", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T14:12:24"}
+{"evento_id": "E000303", "pedido_id": "PW-00101", "zona": "Campus", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T14:09:08"}
+{"evento_id": "E000306", "pedido_id": "PW-00102", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T14:08:20"}
+{"evento_id": "E000312", "pedido_id": "PW-00104", "zona": "Centro", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T14:10:27"}
+{"evento_id": "E000338", "pedido_id": "PW-00113", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T14:10:38"}
+{"evento_id": "E000341", "pedido_id": "PW-00114", "zona": "Barrio norte", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T14:11:26"}
+{"evento_id": "E000347", "pedido_id": "PW-00116", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T14:09:40"}
+{"evento_id": "E000349", "pedido_id": "PW-00117", "zona": "Puerto", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T14:09:18"}
+{"evento_id": "E000352", "pedido_id": "PW-00118", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T14:06:57"}
+{"evento_id": "E000355", "pedido_id": "PW-00119", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T14:09:41"}
+{"evento_id": "E000358", "pedido_id": "PW-00120", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T14:09:53"}
+{"evento_id": "E000294", "pedido_id": "PW-00098", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T14:16:38"}
+{"evento_id": "E000321", "pedido_id": "PW-00107", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T14:16:01"}
+{"evento_id": "E000324", "pedido_id": "PW-00108", "zona": "Puerto", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T14:13:18"}
+{"evento_id": "E000350", "pedido_id": "PW-00117", "zona": "Puerto", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T14:14:18"}
+{"evento_id": "E000351", "pedido_id": "PW-00117", "zona": "Puerto", "rider": "CARLA VIDAL", "estado": "cancelado", "ts": "2026-03-05T14:16:18"}
+{"evento_id": "E000353", "pedido_id": "PW-00118", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T14:11:57"}
+{"evento_id": "E000356", "pedido_id": "PW-00119", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T14:15:41"}
+{"evento_id": "E000359", "pedido_id": "PW-00120", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T14:15:53"}
+{"evento_id": "E000361", "pedido_id": "PW-00121", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T14:11:33"}
+{"evento_id": "E000364", "pedido_id": "PW-00122", "zona": "Campus", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T14:13:32"}
+{"evento_id": "E000367", "pedido_id": "PW-00123", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T14:13:01"}
+{"evento_id": "E000368", "pedido_id": "PW-00123", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T14:17:01"}
+{"evento_id": "E000255", "pedido_id": "PW-00085", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T14:22:52"}
+{"evento_id": "E000309", "pedido_id": "PW-00103", "zona": "Centro", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T14:19:04"}
+{"evento_id": "E000315", "pedido_id": "PW-00105", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T14:18:44"}
+{"evento_id": "E000327", "pedido_id": "PW-00109", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T14:17:56"}
+{"evento_id": "E000348", "pedido_id": "PW-00116", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T14:19:40"}
+{"evento_id": "E000360", "pedido_id": "PW-00120", "zona": "Polígono", "rider": "CARLA VIDAL", "estado": "cancelado", "ts": "2026-03-05T14:19:53"}
+{"evento_id": "E000362", "pedido_id": "PW-00121", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T14:18:33"}
+{"evento_id": "E000365", "pedido_id": "PW-00122", "zona": "Campus", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T14:18:32"}
+{"evento_id": "E000370", "pedido_id": "PW-00124", "zona": "Barrio norte", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T14:18:33"}
+{"evento_id": "E000373", "pedido_id": "PW-00125", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T14:16:58"}
+{"evento_id": "E000376", "pedido_id": "PW-00126", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T14:16:27"}
+{"evento_id": "E000285", "pedido_id": "PW-00095", "zona": "Barrio norte", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T14:23:17"}
+{"evento_id": "E000300", "pedido_id": "PW-00100", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T14:20:44"}
+{"evento_id": "E000330", "pedido_id": "PW-00110", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T14:22:05"}
+{"evento_id": "E000333", "pedido_id": "PW-00111", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T14:28:34"}
+{"evento_id": "E000336", "pedido_id": "PW-00112", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T14:20:45"}
+{"evento_id": "E000345", "pedido_id": "PW-00115", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T14:23:00"}
+{"evento_id": "E000354", "pedido_id": "PW-00118", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T14:25:57"}
+{"evento_id": "E000357", "pedido_id": "PW-00119", "zona": "Ensanche", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T14:26:41"}
+{"evento_id": "E000366", "pedido_id": "PW-00122", "zona": "Campus", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T14:27:32"}
+{"evento_id": "E000371", "pedido_id": "PW-00124", "zona": "Barrio norte", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T14:27:33"}
+{"evento_id": "E000374", "pedido_id": "PW-00125", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T14:21:58"}
+{"evento_id": "E000377", "pedido_id": "PW-00126", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T14:21:27"}
+{"evento_id": "E000379", "pedido_id": "PW-00127", "zona": "Campus", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T14:22:19"}
+{"evento_id": "E000380", "pedido_id": "PW-00127", "zona": "Campus", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T14:25:19"}
+{"evento_id": "E000382", "pedido_id": "PW-00128", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T14:20:36"}
+{"evento_id": "E000385", "pedido_id": "PW-00129", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T14:20:01"}
+{"evento_id": "E000388", "pedido_id": "PW-00130", "zona": "Puerto", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T14:22:20"}
+{"evento_id": "E000389", "pedido_id": "PW-00130", "zona": "Puerto", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T14:25:20"}
+{"evento_id": "E000391", "pedido_id": "PW-00131", "zona": "Barrio norte", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T14:21:46"}
+{"evento_id": "E000392", "pedido_id": "PW-00131", "zona": "Barrio norte", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T14:25:46"}
+{"evento_id": "E000394", "pedido_id": "PW-00132", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T14:23:23"}
+{"evento_id": "E000339", "pedido_id": "PW-00113", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T14:28:38"}
+{"evento_id": "E000381", "pedido_id": "PW-00127", "zona": "Campus", "rider": "MARCOS HERRERA", "estado": "cancelado", "ts": "2026-03-05T14:27:19"}
+{"evento_id": "E000383", "pedido_id": "PW-00128", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T14:28:36"}
+{"evento_id": "E000386", "pedido_id": "PW-00129", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T14:27:01"}
+{"evento_id": "E000395", "pedido_id": "PW-00132", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T14:28:23"}
+{"evento_id": "E000397", "pedido_id": "PW-00133", "zona": "Campus", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T14:27:36"}
+{"evento_id": "E000398", "pedido_id": "PW-00133", "zona": "Campus", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T14:30:36"}
+{"evento_id": "E000400", "pedido_id": "PW-00134", "zona": "Barrio norte", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T14:28:42"}
+{"evento_id": "E000401", "pedido_id": "PW-00134", "zona": "Barrio norte", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T14:32:42"}
+{"evento_id": "E000403", "pedido_id": "PW-00135", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T14:27:34"}
+{"evento_id": "E000404", "pedido_id": "PW-00135", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T14:30:34"}
+{"evento_id": "E000406", "pedido_id": "PW-00136", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T14:25:33"}
+{"evento_id": "E000369", "pedido_id": "PW-00123", "zona": "Centro", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T14:35:01"}
+{"evento_id": "E000378", "pedido_id": "PW-00126", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T14:34:27"}
+{"evento_id": "E000399", "pedido_id": "PW-00133", "zona": "Campus", "rider": "MARTINA TORRES", "estado": "cancelado", "ts": "2026-03-05T14:33:36"}
+{"evento_id": "E000407", "pedido_id": "PW-00136", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T14:30:33"}
+{"evento_id": "E000409", "pedido_id": "PW-00137", "zona": "Casco histórico", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T14:32:48"}
+{"evento_id": "E000412", "pedido_id": "PW-00138", "zona": "Polígono", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T14:30:14"}
+{"evento_id": "E000415", "pedido_id": "PW-00139", "zona": "Ensanche", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T14:31:17"}
+{"evento_id": "E000416", "pedido_id": "PW-00139", "zona": "Ensanche", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T14:35:17"}
+{"evento_id": "E000418", "pedido_id": "PW-00140", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T14:31:58"}
+{"evento_id": "E000421", "pedido_id": "PW-00141", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T14:32:22"}
+{"evento_id": "E000363", "pedido_id": "PW-00121", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T14:40:33"}
+{"evento_id": "E000384", "pedido_id": "PW-00128", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T14:35:36"}
+{"evento_id": "E000387", "pedido_id": "PW-00129", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T14:36:01"}
+{"evento_id": "E000396", "pedido_id": "PW-00132", "zona": "Campus", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T14:39:23"}
+{"evento_id": "E000402", "pedido_id": "PW-00134", "zona": "Barrio norte", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T14:42:42"}
+{"evento_id": "E000410", "pedido_id": "PW-00137", "zona": "Casco histórico", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T14:37:48"}
+{"evento_id": "E000413", "pedido_id": "PW-00138", "zona": "Polígono", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T14:38:14"}
+{"evento_id": "E000419", "pedido_id": "PW-00140", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T14:38:58"}
+{"evento_id": "E000422", "pedido_id": "PW-00141", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T14:38:22"}
+{"evento_id": "E000424", "pedido_id": "PW-00142", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T14:36:31"}
+{"evento_id": "E000427", "pedido_id": "PW-00143", "zona": "Ensanche", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T14:39:33"}
+{"evento_id": "E000430", "pedido_id": "PW-00144", "zona": "Centro", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T14:37:00"}
+{"evento_id": "E000342", "pedido_id": "PW-00114", "zona": "Barrio norte", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T14:44:26"}
+{"evento_id": "E000375", "pedido_id": "PW-00125", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T14:41:58"}
+{"evento_id": "E000414", "pedido_id": "PW-00138", "zona": "Polígono", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T14:44:14"}
+{"evento_id": "E000417", "pedido_id": "PW-00139", "zona": "Ensanche", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T14:45:17"}
+{"evento_id": "E000425", "pedido_id": "PW-00142", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T14:42:31"}
+{"evento_id": "E000428", "pedido_id": "PW-00143", "zona": "Ensanche", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T14:48:33"}
+{"evento_id": "E000431", "pedido_id": "PW-00144", "zona": "Centro", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T14:45:00"}
+{"evento_id": "E000433", "pedido_id": "PW-00145", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T14:40:46"}
+{"evento_id": "E000436", "pedido_id": "PW-00146", "zona": "Casco histórico", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T14:44:54"}
+{"evento_id": "E000439", "pedido_id": "PW-00147", "zona": "Campus", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T14:44:00"}
+{"evento_id": "E000440", "pedido_id": "PW-00147", "zona": "Campus", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T14:47:00"}
+{"evento_id": "E000390", "pedido_id": "PW-00130", "zona": "Puerto", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T14:51:20"}
+{"evento_id": "E000411", "pedido_id": "PW-00137", "zona": "Casco histórico", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T14:47:48"}
+{"evento_id": "E000434", "pedido_id": "PW-00145", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T14:47:46"}
+{"evento_id": "E000437", "pedido_id": "PW-00146", "zona": "Casco histórico", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T14:53:54"}
+{"evento_id": "E000442", "pedido_id": "PW-00148", "zona": "Polígono", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T14:46:10"}
+{"evento_id": "E000443", "pedido_id": "PW-00148", "zona": "Polígono", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T14:50:10"}
+{"evento_id": "E000445", "pedido_id": "PW-00149", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T14:47:30"}
+{"evento_id": "E000448", "pedido_id": "PW-00150", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T14:45:02"}
+{"evento_id": "E000372", "pedido_id": "PW-00124", "zona": "Barrio norte", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T14:57:33"}
+{"evento_id": "E000405", "pedido_id": "PW-00135", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T14:54:34"}
+{"evento_id": "E000408", "pedido_id": "PW-00136", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T14:52:33"}
+{"evento_id": "E000420", "pedido_id": "PW-00140", "zona": "Estación", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T14:52:58"}
+{"evento_id": "E000423", "pedido_id": "PW-00141", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T14:55:22"}
+{"evento_id": "E000432", "pedido_id": "PW-00144", "zona": "Centro", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T14:55:00"}
+{"evento_id": "E000446", "pedido_id": "PW-00149", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T14:55:30"}
+{"evento_id": "E000449", "pedido_id": "PW-00150", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T14:51:02"}
+{"evento_id": "E000451", "pedido_id": "PW-00151", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T14:54:04"}
+{"evento_id": "E000454", "pedido_id": "PW-00152", "zona": "Ensanche", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T14:51:59"}
+{"evento_id": "E000455", "pedido_id": "PW-00152", "zona": "Ensanche", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T14:54:59"}
+{"evento_id": "E000457", "pedido_id": "PW-00153", "zona": "Polígono", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T14:52:24"}
+{"evento_id": "E000458", "pedido_id": "PW-00153", "zona": "Polígono", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T14:56:24"}
+{"evento_id": "E000441", "pedido_id": "PW-00147", "zona": "Campus", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T15:03:00"}
+{"evento_id": "E000452", "pedido_id": "PW-00151", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:03:04"}
+{"evento_id": "E000460", "pedido_id": "PW-00154", "zona": "Ensanche", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T14:59:23"}
+{"evento_id": "E000463", "pedido_id": "PW-00155", "zona": "Barrio norte", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T14:55:56"}
+{"evento_id": "E000464", "pedido_id": "PW-00155", "zona": "Barrio norte", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T14:59:56"}
+{"evento_id": "E000466", "pedido_id": "PW-00156", "zona": "Casco histórico", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T14:59:30"}
+{"evento_id": "E000469", "pedido_id": "PW-00157", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T14:57:03"}
+{"evento_id": "E000393", "pedido_id": "PW-00131", "zona": "Barrio norte", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T15:05:46"}
+{"evento_id": "E000426", "pedido_id": "PW-00142", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:05:31"}
+{"evento_id": "E000429", "pedido_id": "PW-00143", "zona": "Ensanche", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:05:33"}
+{"evento_id": "E000435", "pedido_id": "PW-00145", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:04:46"}
+{"evento_id": "E000438", "pedido_id": "PW-00146", "zona": "Casco histórico", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T15:06:54"}
+{"evento_id": "E000447", "pedido_id": "PW-00149", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T15:06:30"}
+{"evento_id": "E000461", "pedido_id": "PW-00154", "zona": "Ensanche", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T15:04:23"}
+{"evento_id": "E000467", "pedido_id": "PW-00156", "zona": "Casco histórico", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:04:30"}
+{"evento_id": "E000470", "pedido_id": "PW-00157", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T15:05:03"}
+{"evento_id": "E000472", "pedido_id": "PW-00158", "zona": "Barrio norte", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T15:04:49"}
+{"evento_id": "E000473", "pedido_id": "PW-00158", "zona": "Barrio norte", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T15:08:49"}
+{"evento_id": "E000475", "pedido_id": "PW-00159", "zona": "Barrio norte", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T15:03:50"}
+{"evento_id": "E000478", "pedido_id": "PW-00160", "zona": "Campus", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T15:01:22"}
+{"evento_id": "E000481", "pedido_id": "PW-00161", "zona": "Puerto", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T15:03:53"}
+{"evento_id": "E000482", "pedido_id": "PW-00161", "zona": "Puerto", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T15:07:53"}
+{"evento_id": "E000456", "pedido_id": "PW-00152", "zona": "Ensanche", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T15:07:59"}
+{"evento_id": "E000459", "pedido_id": "PW-00153", "zona": "Polígono", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T15:11:24"}
+{"evento_id": "E000476", "pedido_id": "PW-00159", "zona": "Barrio norte", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T15:08:50"}
+{"evento_id": "E000479", "pedido_id": "PW-00160", "zona": "Campus", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T15:06:22"}
+{"evento_id": "E000484", "pedido_id": "PW-00162", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T15:06:39"}
+{"evento_id": "E000485", "pedido_id": "PW-00162", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T15:09:39"}
+{"evento_id": "E000487", "pedido_id": "PW-00163", "zona": "Campus", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T15:07:11"}
+{"evento_id": "E000490", "pedido_id": "PW-00164", "zona": "Polígono", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T15:05:09"}
+{"evento_id": "E000493", "pedido_id": "PW-00165", "zona": "Ensanche", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:08:14"}
+{"evento_id": "E000444", "pedido_id": "PW-00148", "zona": "Polígono", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T15:12:10"}
+{"evento_id": "E000450", "pedido_id": "PW-00150", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T15:12:02"}
+{"evento_id": "E000453", "pedido_id": "PW-00151", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T15:14:04"}
+{"evento_id": "E000462", "pedido_id": "PW-00154", "zona": "Ensanche", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T15:17:23"}
+{"evento_id": "E000468", "pedido_id": "PW-00156", "zona": "Casco histórico", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T15:14:30"}
+{"evento_id": "E000471", "pedido_id": "PW-00157", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T15:15:03"}
+{"evento_id": "E000488", "pedido_id": "PW-00163", "zona": "Campus", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T15:12:11"}
+{"evento_id": "E000491", "pedido_id": "PW-00164", "zona": "Polígono", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T15:12:09"}
+{"evento_id": "E000494", "pedido_id": "PW-00165", "zona": "Ensanche", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:17:14"}
+{"evento_id": "E000496", "pedido_id": "PW-00166", "zona": "Puerto", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T15:10:41"}
+{"evento_id": "E000499", "pedido_id": "PW-00167", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T15:11:42"}
+{"evento_id": "E000502", "pedido_id": "PW-00168", "zona": "Campus", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T15:13:51"}
+{"evento_id": "E000505", "pedido_id": "PW-00169", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T15:10:21"}
+{"evento_id": "E000508", "pedido_id": "PW-00170", "zona": "Campus", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T15:12:29"}
+{"evento_id": "E000509", "pedido_id": "PW-00170", "zona": "Campus", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T15:15:29"}
+{"evento_id": "E000511", "pedido_id": "PW-00171", "zona": "Estación", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:14:28"}
+{"evento_id": "E000512", "pedido_id": "PW-00171", "zona": "Estación", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:17:28"}
+{"evento_id": "E000480", "pedido_id": "PW-00160", "zona": "Campus", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T15:17:22"}
+{"evento_id": "E000483", "pedido_id": "PW-00161", "zona": "Puerto", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T15:20:53"}
+{"evento_id": "E000497", "pedido_id": "PW-00166", "zona": "Puerto", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T15:18:41"}
+{"evento_id": "E000500", "pedido_id": "PW-00167", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T15:17:42"}
+{"evento_id": "E000503", "pedido_id": "PW-00168", "zona": "Campus", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T15:18:51"}
+{"evento_id": "E000506", "pedido_id": "PW-00169", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:15:21"}
+{"evento_id": "E000514", "pedido_id": "PW-00172", "zona": "Barrio norte", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T15:19:15"}
+{"evento_id": "E000517", "pedido_id": "PW-00173", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:18:29"}
+{"evento_id": "E000520", "pedido_id": "PW-00174", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "creado", "ts": "2026-03-05T15:19:20"}
+{"evento_id": "E000521", "pedido_id": "PW-00174", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T15:22:20"}
+{"evento_id": "E000486", "pedido_id": "PW-00162", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T15:23:39"}
+{"evento_id": "E000489", "pedido_id": "PW-00163", "zona": "Campus", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T15:26:11"}
+{"evento_id": "E000515", "pedido_id": "PW-00172", "zona": "Barrio norte", "rider": "LUCÍA NAVARRO", "estado": "recogido", "ts": "2026-03-05T15:26:15"}
+{"evento_id": "E000518", "pedido_id": "PW-00173", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:24:29"}
+{"evento_id": "E000523", "pedido_id": "PW-00175", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T15:23:55"}
+{"evento_id": "E000526", "pedido_id": "PW-00176", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T15:23:43"}
+{"evento_id": "E000529", "pedido_id": "PW-00177", "zona": "Campus", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T15:22:26"}
+{"evento_id": "E000492", "pedido_id": "PW-00164", "zona": "Polígono", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T15:29:09"}
+{"evento_id": "E000504", "pedido_id": "PW-00168", "zona": "Campus", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T15:31:51"}
+{"evento_id": "E000510", "pedido_id": "PW-00170", "zona": "Campus", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T15:29:29"}
+{"evento_id": "E000513", "pedido_id": "PW-00171", "zona": "Estación", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:31:28"}
+{"evento_id": "E000524", "pedido_id": "PW-00175", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:30:55"}
+{"evento_id": "E000527", "pedido_id": "PW-00176", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T15:29:43"}
+{"evento_id": "E000530", "pedido_id": "PW-00177", "zona": "Campus", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T15:30:26"}
+{"evento_id": "E000532", "pedido_id": "PW-00178", "zona": "Barrio norte", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T15:27:28"}
+{"evento_id": "E000535", "pedido_id": "PW-00179", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T15:28:25"}
+{"evento_id": "E000538", "pedido_id": "PW-00180", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T15:28:09"}
+{"evento_id": "E000541", "pedido_id": "PW-00181", "zona": "Polígono", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:28:40"}
+{"evento_id": "E000544", "pedido_id": "PW-00182", "zona": "Ensanche", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:28:54"}
+{"evento_id": "E000545", "pedido_id": "PW-00182", "zona": "Ensanche", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:32:54"}
+{"evento_id": "E000547", "pedido_id": "PW-00183", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:26:13"}
+{"evento_id": "E000548", "pedido_id": "PW-00183", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:30:13"}
+{"evento_id": "E000495", "pedido_id": "PW-00165", "zona": "Ensanche", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:34:14"}
+{"evento_id": "E000501", "pedido_id": "PW-00167", "zona": "Centro", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T15:32:42"}
+{"evento_id": "E000507", "pedido_id": "PW-00169", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T15:32:21"}
+{"evento_id": "E000533", "pedido_id": "PW-00178", "zona": "Barrio norte", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T15:33:28"}
+{"evento_id": "E000536", "pedido_id": "PW-00179", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T15:35:25"}
+{"evento_id": "E000539", "pedido_id": "PW-00180", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T15:36:09"}
+{"evento_id": "E000542", "pedido_id": "PW-00181", "zona": "Polígono", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:34:40"}
+{"evento_id": "E000550", "pedido_id": "PW-00184", "zona": "Ensanche", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T15:30:54"}
+{"evento_id": "E000553", "pedido_id": "PW-00185", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T15:31:43"}
+{"evento_id": "E000556", "pedido_id": "PW-00186", "zona": "Polígono", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T15:33:47"}
+{"evento_id": "E000559", "pedido_id": "PW-00187", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T15:31:45"}
+{"evento_id": "E000562", "pedido_id": "PW-00188", "zona": "Polígono", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T15:33:48"}
+{"evento_id": "E000498", "pedido_id": "PW-00166", "zona": "Puerto", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T15:36:41"}
+{"evento_id": "E000516", "pedido_id": "PW-00172", "zona": "Barrio norte", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T15:39:15"}
+{"evento_id": "E000551", "pedido_id": "PW-00184", "zona": "Ensanche", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T15:36:54"}
+{"evento_id": "E000554", "pedido_id": "PW-00185", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T15:39:43"}
+{"evento_id": "E000557", "pedido_id": "PW-00186", "zona": "Polígono", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T15:38:47"}
+{"evento_id": "E000560", "pedido_id": "PW-00187", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:38:45"}
+{"evento_id": "E000563", "pedido_id": "PW-00188", "zona": "Polígono", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T15:38:48"}
+{"evento_id": "E000565", "pedido_id": "PW-00189", "zona": "Casco histórico", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T15:38:14"}
+{"evento_id": "E000568", "pedido_id": "PW-00190", "zona": "Campus", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T15:39:10"}
+{"evento_id": "E000571", "pedido_id": "PW-00191", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T15:37:07"}
+{"evento_id": "E000574", "pedido_id": "PW-00192", "zona": "Ensanche", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T15:38:39"}
+{"evento_id": "E000577", "pedido_id": "PW-00193", "zona": "Casco histórico", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T15:39:49"}
+{"evento_id": "E000580", "pedido_id": "PW-00194", "zona": "Estación", "rider": "CARLA VIDAL", "estado": "creado", "ts": "2026-03-05T15:36:59"}
+{"evento_id": "E000474", "pedido_id": "PW-00158", "zona": "Barrio norte", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T15:46:49"}
+{"evento_id": "E000477", "pedido_id": "PW-00159", "zona": "Barrio norte", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T15:43:50"}
+{"evento_id": "E000519", "pedido_id": "PW-00173", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:45:29"}
+{"evento_id": "E000522", "pedido_id": "PW-00174", "zona": "Casco histórico", "rider": "LUCÍA NAVARRO", "estado": "entregado", "ts": "2026-03-05T15:44:20"}
+{"evento_id": "E000525", "pedido_id": "PW-00175", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T15:45:55"}
+{"evento_id": "E000528", "pedido_id": "PW-00176", "zona": "Ensanche", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T15:43:43"}
+{"evento_id": "E000531", "pedido_id": "PW-00177", "zona": "Campus", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T15:45:26"}
+{"evento_id": "E000537", "pedido_id": "PW-00179", "zona": "Estación", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T15:47:25"}
+{"evento_id": "E000543", "pedido_id": "PW-00181", "zona": "Polígono", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:44:40"}
+{"evento_id": "E000546", "pedido_id": "PW-00182", "zona": "Ensanche", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:46:54"}
+{"evento_id": "E000549", "pedido_id": "PW-00183", "zona": "Puerto", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:41:13"}
+{"evento_id": "E000561", "pedido_id": "PW-00187", "zona": "Polígono", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T15:45:45"}
+{"evento_id": "E000566", "pedido_id": "PW-00189", "zona": "Casco histórico", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T15:46:14"}
+{"evento_id": "E000569", "pedido_id": "PW-00190", "zona": "Campus", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T15:45:10"}
+{"evento_id": "E000572", "pedido_id": "PW-00191", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:43:07"}
+{"evento_id": "E000575", "pedido_id": "PW-00192", "zona": "Ensanche", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T15:46:39"}
+{"evento_id": "E000578", "pedido_id": "PW-00193", "zona": "Casco histórico", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T15:45:49"}
+{"evento_id": "E000581", "pedido_id": "PW-00194", "zona": "Estación", "rider": "CARLA VIDAL", "estado": "recogido", "ts": "2026-03-05T15:43:59"}
+{"evento_id": "E000583", "pedido_id": "PW-00195", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T15:42:42"}
+{"evento_id": "E000586", "pedido_id": "PW-00196", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T15:40:15"}
+{"evento_id": "E000589", "pedido_id": "PW-00197", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T15:43:27"}
+{"evento_id": "E000592", "pedido_id": "PW-00198", "zona": "Barrio norte", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T15:41:59"}
+{"evento_id": "E000595", "pedido_id": "PW-00199", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:42:32"}
+{"evento_id": "E000598", "pedido_id": "PW-00200", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T15:42:35"}
+{"evento_id": "E000465", "pedido_id": "PW-00155", "zona": "Barrio norte", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T15:47:56"}
+{"evento_id": "E000540", "pedido_id": "PW-00180", "zona": "Puerto", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T15:50:09"}
+{"evento_id": "E000558", "pedido_id": "PW-00186", "zona": "Polígono", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T15:48:47"}
+{"evento_id": "E000576", "pedido_id": "PW-00192", "zona": "Ensanche", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T15:52:39"}
+{"evento_id": "E000584", "pedido_id": "PW-00195", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:49:42"}
+{"evento_id": "E000587", "pedido_id": "PW-00196", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:47:15"}
+{"evento_id": "E000590", "pedido_id": "PW-00197", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T15:49:27"}
+{"evento_id": "E000593", "pedido_id": "PW-00198", "zona": "Barrio norte", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:48:59"}
+{"evento_id": "E000596", "pedido_id": "PW-00199", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:48:32"}
+{"evento_id": "E000599", "pedido_id": "PW-00200", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T15:48:35"}
+{"evento_id": "E000601", "pedido_id": "PW-00201", "zona": "Polígono", "rider": "MARTINA TORRES", "estado": "creado", "ts": "2026-03-05T15:47:19"}
+{"evento_id": "E000604", "pedido_id": "PW-00202", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "creado", "ts": "2026-03-05T15:48:02"}
+{"evento_id": "E000607", "pedido_id": "PW-00203", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T15:47:59"}
+{"evento_id": "E000610", "pedido_id": "PW-00204", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:47:23"}
+{"evento_id": "E000613", "pedido_id": "PW-00205", "zona": "Polígono", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:49:58"}
+{"evento_id": "E000552", "pedido_id": "PW-00184", "zona": "Ensanche", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T15:50:54"}
+{"evento_id": "E000564", "pedido_id": "PW-00188", "zona": "Polígono", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T15:56:48"}
+{"evento_id": "E000573", "pedido_id": "PW-00191", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T15:52:07"}
+{"evento_id": "E000594", "pedido_id": "PW-00198", "zona": "Barrio norte", "rider": "IRENE MOLINA", "estado": "cancelado", "ts": "2026-03-05T15:52:59"}
+{"evento_id": "E000602", "pedido_id": "PW-00201", "zona": "Polígono", "rider": "MARTINA TORRES", "estado": "recogido", "ts": "2026-03-05T15:56:19"}
+{"evento_id": "E000605", "pedido_id": "PW-00202", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "recogido", "ts": "2026-03-05T15:55:02"}
+{"evento_id": "E000608", "pedido_id": "PW-00203", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T15:52:59"}
+{"evento_id": "E000611", "pedido_id": "PW-00204", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:52:23"}
+{"evento_id": "E000614", "pedido_id": "PW-00205", "zona": "Polígono", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:58:58"}
+{"evento_id": "E000616", "pedido_id": "PW-00206", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "creado", "ts": "2026-03-05T15:51:12"}
+{"evento_id": "E000619", "pedido_id": "PW-00207", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T15:51:56"}
+{"evento_id": "E000622", "pedido_id": "PW-00208", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T15:51:51"}
+{"evento_id": "E000555", "pedido_id": "PW-00185", "zona": "Polígono", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T15:56:43"}
+{"evento_id": "E000579", "pedido_id": "PW-00193", "zona": "Casco histórico", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T16:00:49"}
+{"evento_id": "E000582", "pedido_id": "PW-00194", "zona": "Estación", "rider": "CARLA VIDAL", "estado": "entregado", "ts": "2026-03-05T15:59:59"}
+{"evento_id": "E000585", "pedido_id": "PW-00195", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T15:59:42"}
+{"evento_id": "E000588", "pedido_id": "PW-00196", "zona": "Ensanche", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T15:57:15"}
+{"evento_id": "E000597", "pedido_id": "PW-00199", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T15:57:32"}
+{"evento_id": "E000615", "pedido_id": "PW-00205", "zona": "Polígono", "rider": "MARCOS IGLESIAS", "estado": "cancelado", "ts": "2026-03-05T15:59:58"}
+{"evento_id": "E000617", "pedido_id": "PW-00206", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "recogido", "ts": "2026-03-05T15:59:12"}
+{"evento_id": "E000620", "pedido_id": "PW-00207", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T15:57:56"}
+{"evento_id": "E000623", "pedido_id": "PW-00208", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T15:57:51"}
+{"evento_id": "E000625", "pedido_id": "PW-00209", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T15:56:28"}
+{"evento_id": "E000628", "pedido_id": "PW-00210", "zona": "Ensanche", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T15:56:01"}
+{"evento_id": "E000631", "pedido_id": "PW-00211", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "creado", "ts": "2026-03-05T15:58:17"}
+{"evento_id": "E000567", "pedido_id": "PW-00189", "zona": "Casco histórico", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T16:06:14"}
+{"evento_id": "E000570", "pedido_id": "PW-00190", "zona": "Campus", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T16:06:10"}
+{"evento_id": "E000600", "pedido_id": "PW-00200", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T16:04:35"}
+{"evento_id": "E000609", "pedido_id": "PW-00203", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T16:06:59"}
+{"evento_id": "E000626", "pedido_id": "PW-00209", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T16:04:28"}
+{"evento_id": "E000629", "pedido_id": "PW-00210", "zona": "Ensanche", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T16:01:01"}
+{"evento_id": "E000632", "pedido_id": "PW-00211", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "recogido", "ts": "2026-03-05T16:05:17"}
+{"evento_id": "E000634", "pedido_id": "PW-00212", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "creado", "ts": "2026-03-05T16:04:55"}
+{"evento_id": "E000637", "pedido_id": "PW-00213", "zona": "Centro", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T16:01:14"}
+{"evento_id": "E000640", "pedido_id": "PW-00214", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T16:02:05"}
+{"evento_id": "E000641", "pedido_id": "PW-00214", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T16:05:05"}
+{"evento_id": "E000643", "pedido_id": "PW-00215", "zona": "Estación", "rider": "MARCOS HERRERA", "estado": "creado", "ts": "2026-03-05T16:04:40"}
+{"evento_id": "E000603", "pedido_id": "PW-00201", "zona": "Polígono", "rider": "MARTINA TORRES", "estado": "entregado", "ts": "2026-03-05T16:08:19"}
+{"evento_id": "E000606", "pedido_id": "PW-00202", "zona": "Estación", "rider": "VERA ORTEGA", "estado": "entregado", "ts": "2026-03-05T16:12:02"}
+{"evento_id": "E000612", "pedido_id": "PW-00204", "zona": "Casco histórico", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T16:09:23"}
+{"evento_id": "E000635", "pedido_id": "PW-00212", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "recogido", "ts": "2026-03-05T16:09:55"}
+{"evento_id": "E000638", "pedido_id": "PW-00213", "zona": "Centro", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T16:06:14"}
+{"evento_id": "E000639", "pedido_id": "PW-00213", "zona": "Centro", "rider": "IRENE MOLINA", "estado": "cancelado", "ts": "2026-03-05T16:10:14"}
+{"evento_id": "E000644", "pedido_id": "PW-00215", "zona": "Estación", "rider": "MARCOS HERRERA", "estado": "recogido", "ts": "2026-03-05T16:11:40"}
+{"evento_id": "E000646", "pedido_id": "PW-00216", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "creado", "ts": "2026-03-05T16:07:26"}
+{"evento_id": "E000647", "pedido_id": "PW-00216", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "recogido", "ts": "2026-03-05T16:11:26"}
+{"evento_id": "E000649", "pedido_id": "PW-00217", "zona": "Campus", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T16:06:47"}
+{"evento_id": "E000652", "pedido_id": "PW-00218", "zona": "Puerto", "rider": "NOA CAMPOS", "estado": "creado", "ts": "2026-03-05T16:08:28"}
+{"evento_id": "E000534", "pedido_id": "PW-00178", "zona": "Barrio norte", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T16:13:28"}
+{"evento_id": "E000630", "pedido_id": "PW-00210", "zona": "Ensanche", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T16:12:01"}
+{"evento_id": "E000650", "pedido_id": "PW-00217", "zona": "Campus", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T16:13:47"}
+{"evento_id": "E000653", "pedido_id": "PW-00218", "zona": "Puerto", "rider": "NOA CAMPOS", "estado": "recogido", "ts": "2026-03-05T16:13:28"}
+{"evento_id": "E000591", "pedido_id": "PW-00197", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T16:22:27"}
+{"evento_id": "E000618", "pedido_id": "PW-00206", "zona": "Centro", "rider": "MARCOS IGLESIAS", "estado": "entregado", "ts": "2026-03-05T16:16:12"}
+{"evento_id": "E000621", "pedido_id": "PW-00207", "zona": "Casco histórico", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T16:16:56"}
+{"evento_id": "E000624", "pedido_id": "PW-00208", "zona": "Puerto", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T16:17:51"}
+{"evento_id": "E000645", "pedido_id": "PW-00215", "zona": "Estación", "rider": "MARCOS HERRERA", "estado": "entregado", "ts": "2026-03-05T16:22:40"}
+{"evento_id": "E000627", "pedido_id": "PW-00209", "zona": "Estación", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T16:25:28"}
+{"evento_id": "E000633", "pedido_id": "PW-00211", "zona": "Puerto", "rider": "DANIEL RAMOS", "estado": "entregado", "ts": "2026-03-05T16:23:17"}
+{"evento_id": "E000651", "pedido_id": "PW-00217", "zona": "Campus", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T16:24:47"}
+{"evento_id": "E000642", "pedido_id": "PW-00214", "zona": "Centro", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T16:28:05"}
+{"evento_id": "E000648", "pedido_id": "PW-00216", "zona": "Estación", "rider": "IRENE MOLINA", "estado": "entregado", "ts": "2026-03-05T16:28:26"}
+{"evento_id": "E000654", "pedido_id": "PW-00218", "zona": "Puerto", "rider": "NOA CAMPOS", "estado": "entregado", "ts": "2026-03-05T16:41:28"}
+{"evento_id": "E000636", "pedido_id": "PW-00212", "zona": "Barrio norte", "rider": "MARTINA SERRANO", "estado": "entregado", "ts": "2026-03-05T16:50:55"}
