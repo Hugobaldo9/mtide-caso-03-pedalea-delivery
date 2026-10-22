@@ -109,10 +109,39 @@ Escribe `paginas/2-oro.md`: tu estrella y las tres respuestas. Con la remesa nue
 | `bronce/eventos/estados_pedido_2026-03-05.json` | La app de reparto exporta un registro con cada cambio de estado de los pedidos: `creado` → `recogido` → `entregado` (o `cancelado`). | evento_id, pedido_id, zona, rider, estado (creado / recogido / entregado / cancelado), ts |
 
 2. **El giro.** Es una **máquina de estados**: un pedido es varias filas. Para medir el tiempo de entrega tienes que juntar el `creado` con el `entregado` del mismo pedido, y los cancelados no cuentan.
+
+   > 🔎 **Pista · conoce el registro antes de modelarlo.** Un registro de eventos no es una tabla limpia:
+   > cada fila es algo que pasó, y una misma cosa (un pedido, un vuelo, un ticket…) puede ocupar varias filas.
+   > Antes de escribir `stg_eventos`, pregúntale a bronce con `dbt show --inline`, como en el bloque 1:
+   > ¿cuántas filas hay y cuántos identificadores distintos? ¿Qué tipos de evento hay y cuántos de cada?
+   > ¿Entre qué horas y qué valores se mueve? ¿Cómo se ve una misma cosa de principio a fin?
+   >
+   > Para resolver el giro casi siempre necesitarás una de estas dos herramientas de SQL:
+   > **agrupar** por la cosa que importa (`group by`, con `count(*) filter (where …)` o `min(…) filter (where …)`),
+   > o una **función de ventana** (`row_number()`, `lag()`… `over (partition by … order by …)`) para quedarte
+   > con una fila de cada grupo o comparar cada fila con la anterior. Cuál te sirve depende de tu giro.
+
 3. Modelos de plata: `stg_zonas` y `stg_eventos` (el registro lo lees con `source('bronce', 'eventos')`).
 4. **Test protagonista.** **Toda zona del parte tiene que existir en el catálogo de zonas.** Escríbelo como test (de relaciones o singular). Es el contrato entre el parte y el catálogo: si mañana aparece una zona nueva sin dar de alta, el build lo tiene que parar.
+
+   > 🔎 **Pista · el test protagonista.** Si es un test genérico (`unique`, `relationships`…), va en el `.yml`
+   > de plata, como los del bloque 2. Si es singular, es un `select` en `dbt/tests/` que devuelve las filas
+   > que **incumplen** la regla; si no devuelve nada, pasa. En esa carpeta tienes dos de ejemplo.
+   > Escríbelo **antes** de arreglar los datos y comprueba que se pone rojo: un test que nunca ha fallado
+   > no demuestra nada. Con `dbt show --select <tu_test>` ves qué filas lo hacen fallar.
+
 5. **Pregunta 4** (`dbt/models/oro/pregunta_4.sql`): ¿Qué zona **incumple más la promesa de 30 minutos** (de `creado` a `entregado`)? ¿Cuánto tarda de media?
+
+   > 🔎 **Pista · la pregunta 4.** Cruza la fuente nueva con el registro o con tu oro. Antes de unirlos,
+   > decide **a qué nivel** contestas (una fila por zona, por impresora, por creador…) y lleva cada parte
+   > a ese nivel por separado; después las unes. Si unes dos tablas que tienen varias filas por cada zona,
+   > los números se multiplican. Mira el resultado con `dbt show --select pregunta_4`: ¿encaja con lo que
+   > viste al explorar el registro?
+
 6. Escribe `paginas/3-fuentes.md`. Pull request, verde, fusionas.
+
+   > 🔎 **Pista · la página.** Igual que en el bloque 2: `python web/build.py --check` y `python web/build.py`.
+   > Ahora es la cuarta pregunta de la portada la que tiene que dejar de estar en gris.
 
 ## Bloque 4 · El memo · rama `memo`
 
