@@ -1,7 +1,9 @@
-<!-- pendiente: borra esta línea cuando empieces a escribir la página -->
 # 1 · La remesa nueva
 
-> ✏️ Qué llegó: la entrega del parte con fecha de carga 2026-03-03. ¿Qué venía mal? Di qué columna, desde cuándo y cuántas filas.
-> ✏️ Cómo lo descubriste: qué test se puso rojo y qué decía. Si ninguno lo hizo, ¿qué te hizo sospechar?
-> ✏️ Cómo lo arreglaste en plata, y por qué ahí y no en bronce.
-> ✏️ Cierra con una cifra automática, por ejemplo: «plata tiene ahora {{ stg_parte.filas }} pedidos, sin perder ninguna».
+**Qué llegó.** El 3 de marzo de 2026 llegó una nueva exportación del parte (`fecha_carga=2026-03-03`) con unos diez días más de pedidos, del 21 de febrero al 2 de marzo. La hizo otra persona con otra versión del programa, y traía un cambio escondido: **la columna `zona` había cambiado de nombre y ahora se llamaba `barrio`**. Los datos eran correctos, pero con otra cabecera. Afectaba a todas las filas de esa entrega, desde la primera.
+
+**Cómo lo descubrí.** Al lanzar `dbt build` se puso en rojo el test `filas_conservadas`, que comprueba que no se pierde ningún pedido entre bronce y plata. Con `dbt show` vi que en bronce había 559 pedidos y en plata solo 448: faltaban exactamente los 111 de la remesa nueva. Al contar plata por `fecha_carga` solo aparecía la entrega del 21 de febrero, y al mirar la remesa tal cual llegó a bronce vi que la columna `zona` venía vacía y que aparecía una columna nueva, `barrio`. Al leer las dos entregas juntas, las filas nuevas se quedaban sin zona y el cruce con la mediana de metros por zona las descartaba sin dar ningún error: una rotura silenciosa.
+
+**Cómo lo arreglé.** En plata, en `stg_parte.sql`, uno las dos columnas en una sola: `coalesce(zona, barrio) as zona`. Si la fila trae `zona` se usa esa; si trae `barrio`, se usa `barrio`. Lo hago en plata y no en bronce porque bronce es la prueba de lo que se recibió y no se toca nunca; además, así seguirá funcionando tanto si la próxima entrega viene con un nombre como con el otro. El arreglo lleva un comentario en el SQL que explica qué venía mal y por qué se resuelve así.
+
+**Resultado.** Plata tiene ahora {{ stg_parte.filas }} pedidos, sin perder ninguno, y los ocho tests de plata están en verde.
