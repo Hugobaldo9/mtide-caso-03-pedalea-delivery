@@ -1,8 +1,11 @@
-<!-- pendiente: borra esta línea cuando empieces a escribir la página -->
 # 2 · El oro
 
-> ✏️ Tu estrella: qué es una fila de `fact_pedidos` ({{ fact_pedidos.filas }} filas) y qué dimensiones la rodean.
-> ✏️ Pregunta 1 · ¿Qué **zona** deja menos ingreso por kilómetro? Tu respuesta, con marcas: {{ pregunta_1.zona[0] }} con {{ pregunta_1.ingreso_km[0] }} €/km.
-> ✏️ Pregunta 2 · ¿Qué **rider** gasta más batería por kilómetro? Con {{ pregunta_2.rider[0] }} y {{ pregunta_2.wh_km[0] }}.
-> ✏️ Pregunta 3 · ¿Qué **bici** acumula más incidencias por cada 100 km? Con {{ pregunta_3.bici[0] }} y {{ pregunta_3.incidencias_100km[0] }}.
-> ✏️ Con la remesa nueva, ¿se mantienen las respuestas de la J3? ¿Por qué crees que sí o que no?
+**Mi estrella.** En el centro está `fact_pedidos`, el hecho: **una fila es un pedido entregado** ({{ fact_pedidos.filas }} filas, las dos entregas juntas). Lleva las medidas que se suman o se dividen (metros, Wh de batería e importe) y si el pedido tuvo incidencia. A su alrededor, tres dimensiones, una por cada pregunta de la dirección: `dim_zona` ({{ dim_zona.filas }} zonas), `dim_rider` ({{ dim_rider.filas }} riders) y `dim_bici` ({{ dim_bici.filas }} bicis). Los tests del oro comprueban que cada dimensión no tiene valores repetidos ni vacíos, que cada pedido aparece una sola vez y que todo rider, bici y zona del hecho existe en su dimensión.
+
+**Pregunta 1 · ¿Qué zona deja menos ingreso por kilómetro?** **{{ pregunta_1.zona[0] }}**, con solo {{ pregunta_1.ingreso_km[0] }} €/km. En el otro extremo está {{ pregunta_1.zona[7] }}, con {{ pregunta_1.ingreso_km[7] }} €/km.
+
+**Pregunta 2 · ¿Qué rider gasta más batería por kilómetro?** **{{ pregunta_2.rider[0] }}**, con {{ pregunta_2.wh_km[0] }} Wh/km, claramente por encima del siguiente, {{ pregunta_2.rider[1] }}, con {{ pregunta_2.wh_km[1] }} Wh/km.
+
+**Pregunta 3 · ¿Qué bici acumula más incidencias por cada 100 km?** **{{ pregunta_3.bici[0] }}**, con {{ pregunta_3.incidencias_100km[0] }} incidencias por cada 100 km ({{ pregunta_3.incidencias[0] }} incidencias en total), muy lejos de la segunda, {{ pregunta_3.bici[1] }}, con {{ pregunta_3.incidencias_100km[1] }}.
+
+**¿Se mantienen las respuestas de la J3?** Sí: con la remesa nueva las tres respuestas son las mismas que en la J3. Campus sigue siendo la zona que menos ingresa por kilómetro, Carla Vidal la rider que más batería gasta y BK-64 la bici con más incidencias. Las cifras apenas se mueven, y la distancia con el segundo de cada lista sigue siendo grande. Eso indica que no eran casualidades de unos pocos días, sino patrones estables del negocio: una tarifa baja en Campus, una forma de conducir o unas rutas concretas de Carla Vidal y un problema propio de la bici BK-64, que además empeora un poco con los datos nuevos.
