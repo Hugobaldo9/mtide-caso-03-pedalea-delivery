@@ -13,3 +13,20 @@ models:
           - accepted_values:
               arguments:
                 values: ["Centro", "Casco histórico", "Ensanche", "Campus", "Puerto", "Estación", "Barrio norte", "Polígono"]
+  - name: stg_zonas
+    description: "Catálogo de zonas de reparto, con su código postal y la promesa de entrega en minutos"
+    columns:
+      - name: zona
+        data_tests: [unique, not_null]
+  - name: stg_eventos
+    description: "Registro de estados de los pedidos: una fila por cada cambio de estado"
+    columns:
+      - name: evento_id
+        data_tests: [unique, not_null]
+      - name: pedido_id
+        data_tests: [not_null]
+      - name: estado
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["creado", "recogido", "entregado", "cancelado"]
