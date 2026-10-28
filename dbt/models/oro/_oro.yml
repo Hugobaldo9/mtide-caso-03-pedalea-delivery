@@ -1,0 +1,36 @@
+version: 2
+models:
+  - name: dim_rider
+    columns:
+      - name: rider
+        data_tests: [unique, not_null]
+  - name: dim_bici
+    columns:
+      - name: bici
+        data_tests: [unique, not_null]
+  - name: dim_zona
+    columns:
+      - name: zona
+        data_tests: [unique, not_null]
+  - name: fact_pedidos
+    columns:
+      - name: pedido
+        data_tests: [unique, not_null]
+      - name: rider
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_rider')
+                field: rider
+      - name: bici
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_bici')
+                field: bici
+      - name: zona
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('dim_zona')
+                field: zona
