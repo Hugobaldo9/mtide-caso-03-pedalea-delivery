@@ -45,7 +45,7 @@ Necesitas una cuenta de GitHub, Git, Python 3.10 o superior y un editor (VS Code
 
 ```bash
 git switch main && git pull               # parte siempre de main actualizado
-git switch -c remesa                      # una rama por bloque: remesa, oro, fuentes, memo
+git switch -c remesa                      # una rama por bloque: remesa, oro, fuentes, memo, historia
 # … el trabajo del bloque: ENCARGO.md …
 dbt build --project-dir dbt --profiles-dir dbt     # hasta que todo esté en verde
 python web/build.py                                # comprueba tus páginas y genera el portal
@@ -85,6 +85,60 @@ Una página que empieza por `<!-- pendiente … -->` sale como «pendiente» y n
 borra esa línea y sustituye cada línea del guion (`> ✏️ …`) por tu texto. `python web/build.py` falla si queda alguna
 línea del guion o una marca sin valor, y GitHub hará lo mismo con tu pull request.
 
+## Gráficos y cifras (Jornada 7 · La historia)
+
+En cualquier página, un bloque `grafico` dibuja con los datos de un modelo, con la fuente al pie. Todos llevan
+`titular:` y `modelo:`; el `tipo:` dice qué gráfico es (si no lo pones, `barras`). Los valores entre corchetes son tuyos:
+
+````markdown
+```grafico
+titular: [lo que afirma el gráfico]
+modelo: pregunta_4
+barras: [columna de categorías] → [columna numérica]
+destacar: [la categoría protagonista]
+referencia: [un número o modelo.columna] · [su etiqueta]
+```
+
+```grafico
+tipo: linea
+titular: [cómo evoluciona]
+modelo: [modelo con una fila por fecha u hora]
+x: [columna de fecha u hora]
+y: [columna numérica]
+```
+
+```grafico
+tipo: histograma
+titular: [cómo se reparte]
+modelo: [un modelo con una fila por operación, por ejemplo tu hecho]
+columna: [columna numérica]
+```
+
+```grafico
+tipo: calor
+titular: [el patrón]
+modelo: [modelo con una fila por cada par fila × columna]
+filas: [columna]
+columnas: [columna]
+valor: [columna numérica]
+```
+
+```grafico
+tipo: eje
+titular: Mismos datos, dos lecturas: el eje manda
+modelo: pregunta_4
+barras: [columna de categorías] → [columna numérica]
+corte: [número por debajo de todos los valores]
+```
+````
+
+Opcionales: en `barras`, `destacar:`, `referencia:`, `solo:` (lista de categorías), `orden: desc` y, con dos columnas
+(`barras: categoría → sin_limpiar, limpio`), `leyenda:`. En `linea`, `destacar:` (un valor de `x` que se anota),
+`referencia:` y una segunda columna en `y:`. En `histograma`, `tramo:` (el ancho de cada barra), `escala: log` y
+`marcas:` (media, mediana, p95). En `calor`, `normalizar: fila` (cada fila frente a su propia media), `destacar:` y
+`orden: desc`. Un bloque `cifras` con líneas `cifra | qué es` dibuja tarjetas; las cifras pueden ser marcas
+(`{{ stg_parte.filas }} | partes`). `python web/build.py` te dice qué tipos llevas en tu historia.
+
 ## Si algo falla
 
 - **`Conversion Error` / `Could not convert`** en `dbt build`: un dato no tiene el formato esperado. Busca la fila en bronce y arréglalo en plata.
@@ -93,4 +147,5 @@ línea del guion o una marca sin valor, y GitHub hará lo mismo con tu pull requ
 - **`database is locked`**: tienes `lakehouse/caso.duckdb` abierto en otro programa. Ciérralo.
 - **Actions en rojo en «publicar» la primera vez**: no activaste Pages antes de subir. Actívalo y, en Actions, *Re-run jobs*.
 - **Actions en rojo y en tu portátil en verde**: te falta subir algún fichero nuevo (`git status`).
-- **El profesor ha corregido algo en el repositorio de partida**: `git pull profesor main`.
+- **El profesor ha añadido o corregido algo en el repositorio de partida**: con todo commiteado,
+  `git switch main`, `git pull --no-rebase --no-edit profesor main` y `git push origin main`.
