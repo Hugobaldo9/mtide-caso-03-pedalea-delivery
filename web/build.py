@@ -12,8 +12,15 @@ número de filas de un modelo.
 Una página que todavía empieza por la línea <!-- pendiente … --> sale en el portal como «pendiente» y no se
 comprueba. En cuanto borras esa línea, la comprobación exige que no quede ninguna línea del guion («> ✏️ …»)
 y que todas sus marcas tengan valor.
+
+Jornada 7 · La historia: paginas/historia.md pasa a ser la portada en cuanto deja de estar pendiente, y las
+páginas del ejercicio del lakehouse quedan agrupadas y plegadas. En cualquier página puedes usar dos bloques:
+```grafico (cinco tipos: barras, linea, histograma, calor y eje; cómo se escribe cada uno, en web/graficos.py y en
+el README) y ```cifras (líneas «cifra | qué es»). Los gráficos leen los datos del lakehouse: ninguna cifra se
+escribe a mano.
 """
 import html
+from decimal import Decimal
 import json
 import os
 import re
@@ -23,6 +30,9 @@ from datetime import datetime
 from pathlib import Path
 
 import duckdb
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import graficos  # noqa: E402  (los gráficos del portal, en web/graficos.py)
 
 RAIZ = Path(__file__).resolve().parent.parent
 CASO = json.loads((RAIZ / "web" / "caso.json").read_text(encoding="utf-8"))
@@ -34,6 +44,8 @@ PENDIENTE = "<!-- pendiente"
 GUION = "> ✏️"
 BITACORA = [("1-remesa", "1 · La remesa"), ("2-oro", "2 · El oro"), ("3-fuentes", "3 · Fuentes nuevas"),
             ("memo", "Memo para la dirección")]
+HISTORIA = [("historia", "La historia"), ("historia-pasos", "Cómo se construyó la historia")]
+LAKEHOUSE = [("montaje", "Cómo está montado")] + BITACORA + [("datos", "Datos abiertos")]
 MARCA = re.compile(r"\{\{\s*([A-Za-z_][A-Za-z0-9_]*)\.([A-Za-z_][A-Za-z0-9_]*)(?:\[(\d+)\])?\s*\}\}")
 e = html.escape
 
@@ -70,13 +82,16 @@ def formato(v):
         return "—"
     if isinstance(v, bool):
         return "sí" if v else "no"
+    if isinstance(v, Decimal):   # las columnas DECIMAL de DuckDB llegan así: se formatean como cualquier número
+        v = int(v) if v == v.to_integral_value() else float(v)
     if isinstance(v, int):
         return f"{v:,}".replace(",", ".")
     if isinstance(v, float):
         if v.is_integer() and abs(v) < 1e15:
             return f"{int(v):,}".replace(",", ".")
         decimales = 2 if abs(v) >= 1 else 3
-        return f"{v:,.{decimales}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        texto = f"{v:,.{decimales}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+        return texto.rstrip("0").rstrip(",") if "," in texto else texto
     return str(v)
 
 
@@ -96,6 +111,38 @@ def valor_marca(m):
     return formato(filas[i][cols.index(columna)]), None
 
 
+# ─────────────────────────── bloques ```grafico y ```cifras ───────────────────────────
+def bloques(texto, tipo):
+    """(línea de inicio, líneas del cuerpo) de cada bloque ```tipo del texto."""
+    lineas, out, i = texto.splitlines(), [], 0
+    while i < len(lineas):
+        if lineas[i].strip() == f"```{tipo}":
+            j = i + 1
+            while j < len(lineas) and not lineas[j].startswith("```"):
+                j += 1
+            out.append((i + 1, lineas[i + 1:j]))
+            i = j
+        i += 1
+    return out
+
+
+def preparar_grafico(cuerpo):
+    return graficos.preparar(cuerpo, leer, formato)
+
+
+def grafico_html(cuerpo):
+    return graficos.dibujar(cuerpo, leer, formato)[0]
+
+
+def cifras_html(cuerpo):
+    tarjetas = []
+    for l in cuerpo:
+        if "|" in l:
+            valor, _, etiqueta = l.partition("|")
+            tarjetas.append(f'<div class="cifra"><span class="v">{e(valor.strip())}</span><span class="t">{e(etiqueta.strip())}</span></div>')
+    return f'<div class="cifras">{"".join(tarjetas)}</div>'
+
+
 # ─────────────────────────── páginas del alumno ───────────────────────────
 def leer_pagina(nombre):
     ruta = PAGINAS / f"{nombre}.md"
@@ -103,9 +150,12 @@ def leer_pagina(nombre):
     return texto, (not texto.strip()) or texto.lstrip().startswith(PENDIENTE)
 
 
+TIPOS_USADOS = set()
+
+
 def comprobar():
     errores = []
-    for nombre, titulo in BITACORA:
+    for nombre, titulo in BITACORA + HISTORIA:
         texto, pendiente = leer_pagina(nombre)
         if pendiente:
             continue
@@ -117,6 +167,20 @@ def comprobar():
             if motivo:
                 linea = texto[:m.start()].count("\n") + 1
                 errores.append(f"paginas/{nombre}.md, línea {linea}: la marca {m.group(0)} no tiene valor: {motivo}")
+        for inicio_bloque, cuerpo in bloques(texto, "grafico"):
+            g, fallos = preparar_grafico([MARCA.sub(lambda m: valor_marca(m)[0] or "", l) for l in cuerpo])
+            if g and nombre in dict(HISTORIA):
+                TIPOS_USADOS.add(g["tipo"])
+            errores += [f"paginas/{nombre}.md, gráfico de la línea {inicio_bloque}: {f}" for f in fallos]
+        for inicio_bloque, cuerpo in bloques(texto, "cifras"):
+            if not any("|" in l for l in cuerpo):
+                errores.append(f"paginas/{nombre}.md, cifras de la línea {inicio_bloque}: cada línea es «cifra | qué es»")
+        if nombre == "historia":
+            primera = next((l for l in texto.splitlines() if l.strip()), "")
+            if not primera.startswith("# "):
+                errores.append("paginas/historia.md: la primera línea tiene que ser el titular («# …»)")
+            elif not MARCA.search(primera):
+                errores.append("paginas/historia.md: el titular afirma con una cifra del lakehouse: pon al menos una marca {{ … }} en él")
         if nombre == "memo":
             for k in range(1, 5):
                 if parquet(f"pregunta_{k}") is None:
@@ -145,6 +209,14 @@ def md_a_html(texto):
         l = lineas[i]
         if not l.strip():
             i += 1
+            continue
+        if l.strip() in ("```grafico", "```cifras"):
+            j = i + 1
+            while j < len(lineas) and not lineas[j].startswith("```"):
+                j += 1
+            cuerpo = lineas[i + 1:j]
+            out.append(grafico_html(cuerpo) if l.strip() == "```grafico" else cifras_html(cuerpo))
+            i = j + 1
             continue
         if l.startswith("```"):
             j = i + 1
@@ -234,16 +306,25 @@ def estado(r):
     return f'<span class="estado {clase}">{txt}{fallos}</span>'
 
 
+def enlace(nombre, titulo, actual):
+    if nombre in dict(BITACORA + HISTORIA) and leer_pagina(nombre)[1]:
+        return f'<a href="{nombre}.html" class="pendiente{" activa" if nombre == actual else ""}">{e(titulo)}</a>'
+    clase = ' class="activa"' if nombre == actual else ""
+    return f'<a href="{nombre}.html"{clase}>{e(titulo)}</a>'
+
+
 def menu(actual):
-    items = [("index", "Inicio"), ("montaje", "Cómo está montado")] + BITACORA + [("datos", "Datos abiertos")]
-    enlaces = []
-    for nombre, titulo in items:
-        clase = ' class="activa"' if nombre == actual else ""
-        if nombre in dict(BITACORA) and leer_pagina(nombre)[1]:
-            enlaces.append(f'<a href="{nombre}.html" class="pendiente">{e(titulo)}</a>')
-        else:
-            enlaces.append(f'<a href="{nombre}.html"{clase}>{e(titulo)}</a>')
-    return "<nav>" + "".join(enlaces) + "</nav>"
+    historia_lista = not leer_pagina("historia")[1]
+    enlaces = [enlace("index", "Inicio · la historia" if historia_lista else "Inicio", actual)]
+    if not historia_lista:
+        enlaces.append(enlace("historia", "La historia", actual))
+    enlaces.append(enlace("historia-pasos", "Cómo se construyó la historia", actual))
+    dentro = actual in dict(LAKEHOUSE)
+    grupo = "".join(enlace(n, t, actual) for n, t in LAKEHOUSE)
+    activa = ' class="activa"' if dentro else ""
+    return (f'<nav>{"".join(enlaces)}<span class="sep"></span><details class="grupo"{" open" if dentro else ""}>'
+            f'<summary{activa}>Ejercicio lakehouse <span class="cuenta">{len(LAKEHOUSE)}</span></summary>'
+            f'<div class="desplegable">{grupo}</div></details></nav>')
 
 
 def pagina(nombre, titulo, cuerpo):
@@ -263,7 +344,8 @@ def pagina(nombre, titulo, cuerpo):
 </body></html>"""
 
 
-def inicio():
+def lakehouse_resumen():
+    """Las cuatro preguntas y la bitácora del ejercicio del lakehouse."""
     tarjetas = []
     for k, q in enumerate(CASO["preguntas"], 1):
         datos = leer(f"pregunta_{k}", 1)
@@ -275,14 +357,32 @@ def inicio():
         else:
             cuerpo, clase = '<p class="resp vacio">Pendiente: el modelo <code>pregunta_' + str(k) + '</code> aún no existe.</p>', "pendiente"
         tarjetas.append(f'<div class="tarjeta {clase}"><span class="num">Pregunta {k}</span><p class="q">{md_a_html(q)[3:-4]}</p>{cuerpo}</div>')
-    estados = "".join(
+    respondidas = sum(1 for t in tarjetas if "tarjeta hecha" in t)
+    return tarjetas, respondidas
+
+
+def lista_estados(paginas):
+    return '<ul class="lista">' + "".join(
         f'<li><a href="{n}.html">{e(t)}</a> <span class="estado {"salta" if leer_pagina(n)[1] else "ok"}">'
-        f'{"pendiente" if leer_pagina(n)[1] else "escrita"}</span></li>' for n, t in BITACORA)
+        f'{"pendiente" if leer_pagina(n)[1] else "escrita"}</span></li>' for n, t in paginas) + "</ul>"
+
+
+def inicio():
+    tarjetas, respondidas = lakehouse_resumen()
+    texto, pendiente = leer_pagina("historia")
+    if not pendiente:
+        escritas = sum(1 for n, _ in BITACORA if not leer_pagina(n)[1])
+        return f"""<article class="historia">{md_a_html(sustituir_marcas(texto))}</article>
+<details class="plegable"><summary><span>Ejercicio lakehouse: las cuatro preguntas y la bitácora</span>
+<span class="nota">{respondidas} de 4 preguntas con respuesta · {escritas} de {len(BITACORA)} páginas escritas</span></summary>
+<div class="dentro"><div class="rejilla">{''.join(tarjetas)}</div>{lista_estados(BITACORA)}</div></details>"""
     return f"""<section class="hero"><p class="eyebrow">Portal de datos · caso {CASO['num']:02d}</p>
 <h1>{e(CASO['empresa'])}</h1><p>{md_a_html(CASO['contexto'])[3:-4]}</p></section>
 <section><h2>Las cuatro preguntas de la dirección</h2><div class="rejilla">{''.join(tarjetas)}</div>
 <p class="nota">Cada respuesta es la primera fila de su modelo de oro, leída del lakehouse al generar esta web.</p></section>
-<section><h2>Bitácora del equipo de datos</h2><ul class="lista">{estados}</ul></section>"""
+<section><h2>Bitácora del equipo de datos</h2>{lista_estados(BITACORA)}</section>
+<section><h2>Jornada 7 · La historia</h2>{lista_estados(HISTORIA)}
+<p class="nota">Cuando escribas <code>paginas/historia.md</code>, tu historia pasará a ser la portada de este portal.</p></section>"""
 
 
 def montaje():
@@ -357,7 +457,7 @@ def generar():
     SITE.mkdir()
     shutil.copy(RAIZ / "web" / "estilo.css", SITE / "estilo.css")
     piezas = [("index", "Inicio", inicio()), ("montaje", "Cómo está montado", montaje())]
-    piezas += [(n, t, bitacora(n, t)) for n, t in BITACORA]
+    piezas += [(n, t, bitacora(n, t)) for n, t in BITACORA + HISTORIA]
     piezas.append(("datos", "Datos abiertos", datos()))
     for nombre, titulo, cuerpo in piezas:
         (SITE / f"{nombre}.html").write_text(pagina(nombre, titulo, cuerpo), encoding="utf-8")
@@ -370,7 +470,12 @@ if __name__ == "__main__":
         print("❌", err)
     if errores:
         sys.exit(f"\n{len(errores)} problemas en las páginas: corrígelos antes de subir.")
-    hechas = sum(1 for n, _ in BITACORA if not leer_pagina(n)[1])
-    print(f"✅ Páginas comprobadas: {hechas} de {len(BITACORA)} escritas, sin líneas del guion ni marcas sin valor.")
+    todas = BITACORA + HISTORIA
+    hechas = sum(1 for n, _ in todas if not leer_pagina(n)[1])
+    print(f"✅ Páginas comprobadas: {hechas} de {len(todas)} escritas, sin líneas del guion ni marcas sin valor.")
+    if not leer_pagina("historia")[1] or not leer_pagina("historia-pasos")[1]:
+        tipos = ", ".join(sorted(TIPOS_USADOS)) or "ninguno"
+        aviso = "" if len(TIPOS_USADOS) >= 3 else " · la J7 pide al menos tres tipos distintos entre las dos páginas"
+        print(f"📊 Tipos de gráfico en tu historia: {tipos}{aviso}")
     if "--check" not in sys.argv:
         generar()
