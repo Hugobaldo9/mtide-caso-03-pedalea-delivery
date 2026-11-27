@@ -34,3 +34,37 @@ models:
               arguments:
                 to: ref('dim_zona')
                 field: zona
+  - name: historia_tiempos
+    columns:
+      - name: pedido_id
+        data_tests: [unique, not_null]
+      - name: zona
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('stg_zonas')
+                field: zona
+  - name: historia_tramos
+    columns:
+      - name: zona
+        data_tests: [unique, not_null]
+  - name: historia_hora
+    columns:
+      - name: hora
+        data_tests: [unique, not_null]
+  - name: historia_franjas
+    columns:
+      - name: franja
+        data_tests: [unique, not_null]
+  - name: historia_contraste
+    columns:
+      - name: zona
+        data_tests: [unique, not_null]
+  - name: historia_pedidos_dia
+    columns:
+      - name: fecha
+        data_tests: [unique, not_null]
+  - name: historia_terreno
+    columns:
+      - name: pedidos
+        data_tests: [not_null]
